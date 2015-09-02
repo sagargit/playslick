@@ -35,6 +35,6 @@ home.heading = Creemos que la relación entre las marcas y los compradores es di
 home.body = Potenciamos los vendedores para construir plataformas de marcas poderosas, ejecutar promociones altamente eficaces, permitan un compromiso más profundo, y fomentar la lealtad a largo plazo.
 home.jumbo.desc = Clientes satisfechos son influenciadores marca ideales. Plataforma es la mejor manera de participar, dar poder y adquirir influencia para difundir la palabra sobre su marca.
 home.jumbo.button.label = Aprende más
-home.modal.title = Platform
+home.modal.title = Plataforma
 home.modal.desc = Con los medios sociales de integración multicanal. Herramientas avanzadas de identificación factor de influencia y de compromiso construidas sobre un robusto motor de minería de datos. Consumidor a consumidor permitió la publicación de contenido. Una poderosa plataforma para las recompensas y promociones. Análisis avanzados. Y apuntado llamada a mensajes de acción. Plataforma pone marketing boca a boca a trabajar para usted.
 home.modal.close.label = Cerca
