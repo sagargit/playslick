@@ -1,0 +1,39 @@
+#Titles
+home.title = Hello World
+app.name = Platform
+
+#Labels
+change.language.label = Change Language
+gallery.label = Gallery
+signup.label = SignUp
+back.to.top.label = Back to Top
+
+
+#Registration form labels
+email.label = Email
+email.placeholder = Email
+password.label = Password
+password.placeholder = Password
+feedback.label = Feedback
+feedback.help = A longer block of help text that breaks onto a new line and may extend beyond one line
+gender.label = Gender
+gender.label.male = Male
+gender.label.female = Female
+news.subscription.text = Subscribe to Monthly Newsletters
+form.cancel.label = Cancel
+form.submit.label = Submit
+
+#About Us Page
+about.us.label = About Us
+about.us.body = Emerging technologies have dramatically changed how people communicate with each other and how they consume information. Today, consumers use multiple devices and multiple communication channels. They have more control over the content they see, and they have unprecedented access to product information and purchase advice from other consumers. Traditional “push” marketing and mass media “spray-and-pray” tactics have decreased in effectiveness. Consumers do not want to be told what to buy and why to buy it from brands. Instead, they prefer to share with other consumers, through social media, what they want to buy and why. For the consumer, this activity has nothing to do with marketing; it is a means of socializing.
+about.us.heading = Our mission is to disrupt and revolutionize how brands use the Internet and social media to engage consumers.
+
+#Home Page
+home.label = Home
+home.heading = We believe the relationship between brands and shoppers is dynamic, vibrant, and everchanging. We create robust marketing platforms and software solutions that utilize the latest advancement in technology, analytics, and algorithms.
+home.body = We empower marketers to build powerful brand platforms, run highly effective promotions, enable deeper engagement, and foster long-term loyalty.
+home.jumbo.desc = Delighted customers are ideal brand influencers. Platform is the best way to engage, empower and acquire influencers to spread the word about your brand.
+home.jumbo.button.label = Learn more
+home.modal.title = Platform
+home.modal.desc = With social media multi-channel integration. Advanced influencer identification and engagement tools built on a robust data mining engine. Consumer-to-consumer enabled content publishing. A powerful platform for rewards and promotions. Advanced analytics. And targeted call to action messages. Platform puts word of mouth marketing to work for you.
+home.modal.close.label = Close

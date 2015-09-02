@@ -1,0 +1,6 @@
+@(title: String,moreScripts: Html = Html(""),moreStyles:Html = Html(""))(content: Html)(implicit lang: Lang)
+@common.header(title,moreStyles)
+	<div>
+		@content
+	</div>
+@common.footer(moreScripts)

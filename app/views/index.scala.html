@@ -1,0 +1,38 @@
+@(message: String)(implicit lang: Lang)
+
+@main("Welcome to Play") {
+<div class="page-header">
+<div class="jumbotron">
+  <h1>@Messages("app.name")</h1>
+  <p>@Messages("home.jumbo.desc")</p>
+  <p data-toggle="modal" data-target="#learnMoreId"><a  class="btn btn-primary btn-lg">@Messages("home.jumbo.button.label")</a></p>
+</div>
+<div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <p class="lead">@Messages("home.heading")</p>
+            <p class="lead">@Messages("home.body")</p>
+          </div>
+<!--           <div class="col-lg-4 col-md-5 col-sm-6">
+            <div class="sponsor">
+            </div>
+          </div> -->
+        </div>
+        </div>
+
+  <div class="modal fade" id="learnMoreId" aria-labelledby="learnMoreId" aria-hidden="true" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title">@Messages("home.modal.title")</h4>
+      </div>
+      <div class="modal-body">
+        <p>@Messages("home.modal.desc")</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">@Messages("home.modal.close.label")</button>
+      </div>
+    </div>
+  </div>
+</div>
+}

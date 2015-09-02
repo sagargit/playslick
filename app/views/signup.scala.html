@@ -1,0 +1,70 @@
+@(message: String)(implicit lang: Lang)
+
+@main("Welcome to Play") {
+<div class="page-header">
+<div class="row">
+          <div class="col-lg-8 col-md-7 col-sm-6">
+            <h1>@Messages("signup.label")</h1>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-6">
+            <div class="sponsor">
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-lg-6">
+	<form class="form-horizontal">
+  <fieldset>
+    <div class="form-group">
+      <label for="inputEmail" class="col-lg-2 control-label">@Messages("email.label")</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="inputEmail" placeholder="@Messages("email.placeholder")" >
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputPassword" class="col-lg-2 control-label">@Messages("password.placeholder")</label>
+      <div class="col-lg-10">
+        <input type="password" class="form-control" id="inputPassword" placeholder="@Messages("password.placeholder")" >
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="textArea" class="col-lg-2 control-label">@Messages("feedback.label")</label>
+      <div class="col-lg-10">
+        <textarea class="form-control" rows="3" id="textArea"></textarea>
+        <span class="help-block">@Messages("feedback.help")</span>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-lg-2 control-label">@Messages("gender.label")</label>
+      <div class="col-lg-10">
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+            @Messages("gender.label.male")
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+            @Messages("gender.label.female")
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> @Messages("news.subscription.text")
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="reset" class="btn btn-default">@Messages("form.cancel.label")</button>
+        <button type="submit" class="btn btn-primary">@Messages("form.submit.label")</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
+</div>
+</div>
+}
