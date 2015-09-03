@@ -30,4 +30,9 @@ object Application extends Controller {
     Ok(views.html.aboutus(""))
   }
 
+  def gallery = Action { implicit request =>
+    Ok(views.html.gallery(""))
+  }
+
+
 }

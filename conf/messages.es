@@ -38,3 +38,6 @@ home.jumbo.button.label = Aprende más
 home.modal.title = Plataforma
 home.modal.desc = Con los medios sociales de integración multicanal. Herramientas avanzadas de identificación factor de influencia y de compromiso construidas sobre un robusto motor de minería de datos. Consumidor a consumidor permitió la publicación de contenido. Una poderosa plataforma para las recompensas y promociones. Análisis avanzados. Y apuntado llamada a mensajes de acción. Plataforma pone marketing boca a boca a trabajar para usted.
 home.modal.close.label = Cerca
+
+#Gallery
+gallery.image.one = images/gallery-one-es.jpg

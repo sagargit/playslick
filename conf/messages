@@ -37,3 +37,6 @@ home.jumbo.button.label = Learn more
 home.modal.title = Platform
 home.modal.desc = With social media multi-channel integration. Advanced influencer identification and engagement tools built on a robust data mining engine. Consumer-to-consumer enabled content publishing. A powerful platform for rewards and promotions. Advanced analytics. And targeted call to action messages. Platform puts word of mouth marketing to work for you.
 home.modal.close.label = Close
+
+#Gallery
+gallery.image.one = images/gallery-one-en.jpg

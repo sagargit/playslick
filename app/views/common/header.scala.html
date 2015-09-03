@@ -10,6 +10,8 @@
     <meta property="og:description" content="">
     <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap.flatly.css")">
     <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootswatch.flatly.min.css")">
+    <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/owl.carousel.css")">
+    <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/owl.theme.css")">
     @moreStyles
     <title></title>
 </head>
@@ -30,7 +32,7 @@
               <a href="@routes.Application.signUp">@Messages("signup.label")</a>
             </li>
             <li>
-              <a href="#">@Messages("gallery.label")</a>
+              <a href="@routes.Application.gallery">@Messages("gallery.label")</a>
             </li>
             <li>
               <a href="@routes.Application.aboutUs">@Messages("about.us.label")</a>
