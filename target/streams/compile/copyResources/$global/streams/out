@@ -1,0 +1,9 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/srijesh/dev/projects/notes/conf/evolutions,/home/srijesh/dev/projects/notes/target/scala-2.11/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/home/srijesh/dev/projects/notes/conf/logback.xml,/home/srijesh/dev/projects/notes/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/srijesh/dev/projects/notes/conf/routes,/home/srijesh/dev/projects/notes/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/srijesh/dev/projects/notes/conf/messages.es,/home/srijesh/dev/projects/notes/target/scala-2.11/classes/messages.es)[0m
+[0m[[0mdebug[0m] [0m	(/home/srijesh/dev/projects/notes/conf/application.conf,/home/srijesh/dev/projects/notes/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/srijesh/dev/projects/notes/conf/messages,/home/srijesh/dev/projects/notes/target/scala-2.11/classes/messages)[0m
+[0m[[0mdebug[0m] [0m	(/home/srijesh/dev/projects/notes/conf/evolutions/default,/home/srijesh/dev/projects/notes/target/scala-2.11/classes/evolutions/default)[0m
+[0m[[0mdebug[0m] [0m	(/home/srijesh/dev/projects/notes/conf/evolutions/default/1.sql,/home/srijesh/dev/projects/notes/target/scala-2.11/classes/evolutions/default/1.sql)[0m

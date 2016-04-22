@@ -1,0 +1,12 @@
+@(getNoteForm:Form[(String,String)])(implicit lang: Lang)
+@import helper._
+@main(""){
+    @form(routes.Application.showNoteOption){
+        @inputText(getNoteForm("Title"))
+        @textarea(field = getNoteForm("Note"),
+            'placeholder -> "Any notes you want to add",
+            'rows->5,
+            'cols->50)
+        <button type="submit" class="btn-primary">Back</button>
+        }
+    }

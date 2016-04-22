@@ -1,0 +1,13 @@
+@(note:Form[(String,String)])(implicit lang:Lang)
+@import helper._
+@main(""){
+	<h2> Please submit your note </h2>
+	@form(routes.Registrations.saveNote){
+	@inputText(note("Title"))
+    @textarea(field = note("Note"),
+        'placeholder -> "Any notes you want to add",
+        'rows->5,
+        'cols->50)
+  <button type="submit" class="btn-primary">Submit</button>          
+ }
+}

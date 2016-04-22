@@ -1,0 +1,12 @@
+@(loginForm: Form[(String,String)])(implicit lang: Lang)
+
+@import helper._
+
+@main(""){
+	<h2> Login </h2>
+    @form(routes.Registrations.loginUser()){
+    @inputText(loginForm("email"))
+    @inputText(loginForm("password"))
+    <button type="submit" class="btn-primary">Login</button>
+ }
+}

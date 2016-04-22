@@ -1,0 +1,16 @@
+exit
+clean
+compile
+clean compile
+clean
+compile
+run
+run 9001
+clean
+run 9001
+compile
+run
+clean
+run
+compile
+run

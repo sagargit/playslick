@@ -1,0 +1,23 @@
+@(askForm:Form[(String)],userId:String="")(implicit lang:Lang)
+@import helper._
+@main(""){
+	<h2>Please Select your Option </h2>
+	<div class ="btn-group">
+	@form(routes.Registrations.getNote){
+	<button type="submit" class="btn btn-primary btn-lg">Get Note</button>
+	}
+	</div>
+
+	<div class ="btn-group">
+    @form(routes.Application.showNoteOption){
+	<button type="submit" class="btn btn-primary btn-lg">Save Note</button>
+	}
+	</div>
+
+	<div class ="btn-group">
+	@form(routes.Application.signOut){
+	<button type="submit" class="btn btn-primary btn-lg">Logout</button>
+	}
+	</div>
+
+}

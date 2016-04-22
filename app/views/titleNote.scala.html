@@ -1,0 +1,8 @@
+@(noteTitle:Form[(String)])(implicit lang: Lang)
+@import helper._
+@main("") {
+    <h2> Please provide your Note Title </h2>
+    @form(routes.Registrations.getNote) {
+        @inputText(noteTitle("Title"))
+    }
+}
